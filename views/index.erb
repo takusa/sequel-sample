@@ -1,0 +1,12 @@
+<table border="1">
+  <tr>
+    <th>ID</th>
+    <th>TEXT</th>
+  </th>
+<% @posts.each do |post| %>
+  <tr>
+    <td><%= post.id %></td>
+    <td><%= post.text %></td>
+  </th>
+<% end %>
+</table>
