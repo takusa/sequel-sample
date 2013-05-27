@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require './lib/app.rb'
+require File.expand_path('app.rb', File.dirname(__FILE__))
 #DB = Sequel.connect('mysql2://root:@localhost/sequel_test')
 App.connect
 class Post < Sequel::Model
