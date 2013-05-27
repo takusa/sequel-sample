@@ -1,3 +1,4 @@
+encoding: utf8
 database: sequel_test
 username: root
 password:
