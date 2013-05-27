@@ -3,7 +3,7 @@ require 'rake'
 require 'sequel'
 require 'sequel/extensions/migration'
 
-require './lib/app.rb'
+require_relative './lib/app.rb'
 
 namespace :db do
   desc 'migrate database'

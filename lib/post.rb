@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require_relative "app.rb"
+require_relative 'app.rb'
 #require File.expand_path('app.rb', File.dirname(__FILE__))
 #DB = Sequel.connect('mysql2://root:@localhost/sequel_test')
 App.connect
